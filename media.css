@@ -1,0 +1,58 @@
+@media (max-width : 930px){
+    .left{
+        /* background-color: yellow; */
+        position: absolute;
+        left: -100%;
+        transition: all .3s;
+        z-index: 1;
+        width: 300px;
+
+    }
+
+    .right{
+        width: 100vw;
+        height: 117vw;
+        margin: 0;
+    }
+
+    .playbar{
+        width: 94vw;
+    }
+
+    .nav{
+        width: 97vw;
+    }
+
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        padding-left: 17px;
+        
+    }
+    
+    .left-right-btn{
+        display: none;
+    }
+
+    .info{
+        padding-left: 0px;
+    }
+
+    .temp{
+        padding-left: -3px;
+    }
+    .cardContainer{
+        max-height: 56vh;
+    }
+
+    .close{
+        display: block;
+        position: absolute;
+        
+    }
+    .close img{
+        padding-left: 250px;
+        padding-top: 15px;
+       
+    }
+}
